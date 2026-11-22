@@ -1,0 +1,48 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Sensitive configuration
+.env
+.env.*
+!.env.example
+secrets.json
+
+# IDE files
+.vscode/
+.idea/
+
+# Testing and logs
+.pytest_cache/
+.coverage
+*.log
+
+# Generated outputs
+runs/
+outputs/
+*.cache
+
+# Large datasets
+data/
+Fire_data/
+CCTV_Fire_Smoke_Emergency_Detection_Dataset/
+Datacluster Fire and Smoke Sample/
+Annotations/
+
+# Large model files
+*.pth
+*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
+# Dataset archives
+*.zip
+# Research experiment checkpoints
+research/**/weights/
